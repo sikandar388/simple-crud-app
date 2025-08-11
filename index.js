@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
   res.send("Hello from node API.");
 });
 
-//..............................for local connection on compass..............................
+//..............................for local connection on compass..........................
 
 mongoose
   .connect("mongodb://127.0.0.1:27017/mydatabase")
@@ -26,7 +26,7 @@ mongoose
   })
   .catch((err) => console.error("MongoDB connection error:", err));
 
-//....................................................................................
+//................................................................................
 
 // mongoose
 //   .connect("mongodb+srv://admin:hafiz%40106248@backenddb.qezmhpy.mongodb.net/Node-API?retryWrites=true&w=majority")
